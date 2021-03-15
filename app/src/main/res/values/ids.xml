@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="RecipeItemNameEditText" type="id" />
+    <item name="RecipeItemDescriptionEditText" type="id" />
+    <item name="RecipeItemCategorySpinner" type="id" />
+    <item name="RecipeItemInstructionsTextView" type="id" />
+    <item name="RecipeItemIngredientsTextView" type="id" />
+</resources>

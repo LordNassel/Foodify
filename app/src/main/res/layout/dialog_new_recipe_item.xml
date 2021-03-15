@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <!-- Category -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dip"
+        android:text="@string/name"/>
+
+    <EditText
+        android:id="@+id/RecipeItemNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"/>
+
+    <!-- Category -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dip"
+        android:text="@string/description"/>
+
+    <EditText
+        android:id="@+id/RecipeItemDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"/>
+
+    <!-- Category -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dip"
+        android:text="@string/instructions"/>
+
+    <EditText
+        android:id="@+id/RecipeItemInstructionsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"/>
+
+    <!-- Category -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dip"
+        android:text="@string/ingredients" />
+
+    <EditText
+        android:id="@+id/RecipeItemIngredientsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"/>
+
+    <!-- Category -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dip"
+        android:text="@string/category"/>
+
+    <Spinner
+        android:id="@+id/RecipeItemCategorySpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"/>
+
+</LinearLayout>
